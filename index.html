@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/custom/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap"
+        rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/CSSRulePlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/MotionPathPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+
+    <title>MyRatin | Coming Soon</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <section class="header-bg ">
+        <div class="container-fluid row-bg">
+            <div class="container d-flex justify-content-between py-3">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img src="./assets/image/MyRatin.svg" alt="..." class="img-fluid logo">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <a href="#early-access"><button type="submit"
+                                class="access-btn text-white px-2 px-md-4 py-md-2 py-1 text-nowrap btn-small">
+                                Get Early Access</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hero Section -->
+        <div class="container">
+            <div class="row pb-5 mt-5">
+                <div class="col-lg-7">
+                    <h1 class="heading-title d-block mx-auto mt-2">What If You Could Rate
+                        People Like Products?
+                    </h1>
+
+                    <p class="heading-text mt-5">The Annoying Neighbour Who Wouldn't Turn Down The Music At 3am?<br>
+                        1 Star, Would Not Recommend.
+                    </p>
+
+                    <p class="heading-text mt-md-4">MyRatin Allows You Rate People You Interact With Daily Based On
+                        Their Social Behaviours. Your New Social Identity Tool.</p>
+
+
+                    <form action="process.php" class=" email-form">
+                        <!-- <div class="notify-form d-md-flex flex-row"> -->
+                        <label for="email"></label>
+                        <input type="email" name="email" id="email" placeholder="Enter Email Address"
+                            class="email-input  px-3 py-2">
+                        <button type="submit" class="text-white text-nowrap px-3 py-2 stay-informed-btn">Stay
+                            Informed</button>
+                        <!-- </div> -->
+                    </form>
+
+                    <form action="process.php" >
+                        <input type="text" name="email" id="email">
+                        <button type="submit">subit</button>
+                    </form>
+
+                </div>
+
+                <div class="col-lg-3">
+                    <svg width="437" height="545" viewBox="0 0 437 545" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class=" hero-img">
+                        <path
+                            d="M374.654 115.989C409.609 138.427 425.501 190.512 429.676 240.792C433.85 291.073 426.406 339.556 408.37 392.313C390.334 445.071 361.805 502.229 316.917 521.743C271.929 541.358 210.603 523.321 164.49 493.554C118.511 463.793 87.618 422.194 58.7559 377.093C29.8938 331.992 2.9492 283.296 0.246081 228.502C-2.57022 173.714 18.8483 112.74 61.3525 91.6347C103.963 70.5557 167.666 89.4908 226.629 95.2433C285.591 100.996 339.707 93.5522 374.654 115.989Z"
+                            fill="#D5F7F3" class="svg-elem-1"></path>
+                        <path
+                            d="M266.317 544.52C285.052 497.349 321.577 473.16 323.575 415.243C323.641 410.955 253.001 365.395 220.044 366.161C187.087 366.926 143.951 544.52 143.951 544.52H266.317Z"
+                            fill="#7BDFF2" class="svg-elem-2"></path>
+                        <path d="M333.868 35.2487H122.485V411.914H333.868V35.2487Z" fill="white" class="svg-elem-3">
+                        </path>
+                        <path d="M312.809 200.166H143.558V265.699H312.809V200.166Z" fill="#7BDFF2" class="svg-elem-4">
+                        </path>
+                        <path d="M212.468 219.054H289.826" stroke="#B0C3FA" stroke-width="4.78" stroke-linecap="round"
+                            stroke-linejoin="round" class="svg-elem-5"></path>
+                        <path d="M212.468 239.334H243.893" stroke="#B0C3FA" stroke-width="4.78" stroke-linecap="round"
+                            stroke-linejoin="round" class="svg-elem-6"></path>
+                        <path
+                            d="M177.267 250.806C187.14 250.806 195.144 242.802 195.144 232.929C195.144 223.056 187.14 215.053 177.267 215.053C167.394 215.053 159.391 223.056 159.391 232.929C159.391 242.802 167.394 250.806 177.267 250.806Z"
+                            fill="#ECC953" class="svg-elem-7"></path>
+                        <path d="M292.416 489.279C306.484 467.454 319.094 445.284 320.246 411.914" stroke="#1B3C87"
+                            stroke-width="4.78" stroke-linecap="round" stroke-linejoin="round" class="svg-elem-8">
+                        </path>
+                        <path d="M262.988 541.191C266.965 531.4 271.746 521.956 277.282 512.955" stroke="#1B3C87"
+                            stroke-width="4.78" stroke-linecap="round" stroke-linejoin="round" class="svg-elem-9">
+                        </path>
+                        <path d="M312.809 103.952H143.558V169.486H312.809V103.952Z" fill="#7BDFF2" class="svg-elem-10">
+                        </path>
+                        <path d="M333.868 35.2487H122.485V74.0377H333.868V35.2487Z" fill="#D6DFFF" class="svg-elem-11">
+                        </path>
+                        <path d="M333.868 373.118H122.485V411.907H333.868V373.118Z" fill="#D6DFFF" class="svg-elem-12">
+                        </path>
+                        <path d="M212.468 54.6432H243.893" stroke="#1B3C87" stroke-width="4.78" stroke-linecap="round"
+                            stroke-linejoin="round" class="svg-elem-13"></path>
+                        <path
+                            d="M228.18 401.827C233.324 401.827 237.495 397.657 237.495 392.513C237.495 387.369 233.324 383.198 228.18 383.198C223.036 383.198 218.866 387.369 218.866 392.513C218.866 397.657 223.036 401.827 228.18 401.827Z"
+                            fill="#B0C3FA" class="svg-elem-14"></path>
+                        <path
+                            d="M91.5264 544.52C101.513 506.57 103.511 361.427 91.5264 328.137C108.837 315.487 180.077 261.558 190.729 252.903C200.716 259.561 196.056 314.822 163.432 338.79V355.435C180.743 355.435 206.708 413.359 192.061 474.612C183.599 501.443 209.804 544.52 209.804 544.52H91.5264Z"
+                            fill="#7BDFF2" class="svg-elem-15"></path>
+                        <path d="M176.574 366.081C189.278 386.914 199.011 428.279 188.732 471.276" stroke="#1B3C87"
+                            stroke-width="4.78" stroke-linecap="round" stroke-linejoin="round" class="svg-elem-16">
+                        </path>
+                        <path
+                            d="M177.267 257.497C182.02 253.828 185.589 251.045 187.4 249.574C197.387 256.232 192.726 311.493 160.103 335.461V347.572"
+                            stroke="#1B3C87" stroke-width="4.78" stroke-linecap="round" stroke-linejoin="round"
+                            class="svg-elem-17"></path>
+                        <path d="M98.2041 317.392C113.218 306.193 137.706 287.697 157.46 272.677" stroke="#1B3C87"
+                            stroke-width="4.78" stroke-linecap="round" stroke-linejoin="round" class="svg-elem-18">
+                        </path>
+                        <path d="M88.1973 541.191C96.0669 511.29 98.9698 414.864 93.9897 359.01" stroke="#1B3C87"
+                            stroke-width="4.78" stroke-linecap="round" stroke-linejoin="round" class="svg-elem-19">
+                        </path>
+                        <path d="M275.172 122.84H289.826" stroke="#B0C3FA" stroke-width="4.78" stroke-linecap="round"
+                            stroke-linejoin="round" class="svg-elem-20"></path>
+                        <path d="M212.468 122.84H260.518" stroke="#B0C3FA" stroke-width="4.78" stroke-linecap="round"
+                            stroke-linejoin="round" class="svg-elem-21"></path>
+                        <path d="M212.468 143.12H243.893" stroke="#B0C3FA" stroke-width="4.78" stroke-linecap="round"
+                            stroke-linejoin="round" class="svg-elem-22"></path>
+                        <path
+                            d="M177.267 154.592C187.14 154.592 195.144 146.588 195.144 136.716C195.144 126.843 187.14 118.839 177.267 118.839C167.394 118.839 159.391 126.843 159.391 136.716C159.391 146.588 167.394 154.592 177.267 154.592Z"
+                            fill="#FB5D64" class="svg-elem-23"></path>
+                        <path
+                            d="M356.012 314.602C405.168 347.452 325.586 409.81 304.333 427.034C298.834 423.093 295.019 369.596 356.012 314.602Z"
+                            fill="#7BDFF2" class="svg-elem-24"></path>
+                        <path
+                            d="M318.362 409.324C311.311 415.429 305.079 420.396 301.004 423.705C293.354 419.557 295.991 389.317 317.649 355.615"
+                            stroke="#1B3C87" stroke-width="4.78" stroke-linecap="round" stroke-linejoin="round"
+                            class="svg-elem-25"></path>
+                        <path d="M352.683 311.273C379.588 329.249 367.923 356.067 348.369 379.49" stroke="#1B3C87"
+                            stroke-width="4.78" stroke-linecap="round" stroke-linejoin="round" class="svg-elem-26">
+                        </path>
+                        <path
+                            d="M377.264 82.8129C382.133 82.8129 386.079 78.8663 386.079 73.9978C386.079 69.1294 382.133 65.1827 377.264 65.1827C372.396 65.1827 368.449 69.1294 368.449 73.9978C368.449 78.8663 372.396 82.8129 377.264 82.8129Z"
+                            stroke="#B0C3FA" stroke-width="4.78" stroke-linecap="round" stroke-linejoin="round"
+                            class="svg-elem-27"></path>
+                        <path
+                            d="M349.241 23.1313C349.241 22.8583 349.241 22.5787 349.241 22.299C349.241 17.8765 350.721 13.5811 353.444 10.0963C356.167 6.6115 359.977 4.13745 364.268 3.06783C368.559 1.99821 373.085 2.39447 377.125 4.19356C381.165 5.99265 384.487 9.09121 386.563 12.9962C388.639 16.9012 389.349 21.3883 388.581 25.7436C387.813 30.0988 385.61 34.072 382.323 37.0309C379.036 39.9898 374.854 41.7645 370.442 42.0725C366.031 42.3806 361.643 41.2043 357.976 38.7308"
+                            stroke="#B0C3FA" stroke-width="4.78" stroke-linecap="round" stroke-linejoin="round"
+                            class="svg-elem-28"></path>
+                        <path
+                            d="M415.993 49.743C413.151 48.8887 410.655 47.1524 408.865 44.7852C407.076 42.4181 406.086 39.5429 406.038 36.5757C405.991 33.6086 406.889 30.7033 408.603 28.2804C410.316 25.8575 412.756 24.0426 415.569 23.0983C418.383 22.154 421.423 22.1294 424.252 23.0278C427.08 23.9263 429.549 25.7014 431.301 28.0962C433.054 30.491 433.999 33.3812 434 36.3488C434.001 39.3163 433.058 42.2072 431.307 44.6031"
+                            stroke="#B0C3FA" stroke-width="4.78" stroke-linecap="round" stroke-linejoin="round"
+                            class="svg-elem-29"></path>
+                        <path
+                            d="M338.535 284.861C286.604 316.153 280.611 384.064 287.269 388.059C305.912 380.735 375.154 304.169 375.154 268.882C375.154 260.892 351.998 245.779 346.678 243.615C343.695 242.45 346.871 237.543 336.252 247.363C336.318 257.117 335.559 275.327 338.535 284.861Z"
+                            fill="#7BDFF2" class="svg-elem-30"></path>
+                        <path
+                            d="M343.349 240.286C348.675 242.45 371.825 257.563 371.825 265.553C371.825 274.208 367.637 285.407 361.045 297.431"
+                            stroke="#1B3C87" stroke-width="4.78" stroke-linecap="round" stroke-linejoin="round"
+                            class="svg-elem-31"></path>
+                        <path
+                            d="M335.013 335.448C315.339 359.996 293.281 381.061 283.94 384.716C277.282 380.722 283.274 312.811 335.206 281.519"
+                            stroke="#1B3C87" stroke-width="4.78" stroke-linecap="round" stroke-linejoin="round"
+                            class="svg-elem-32"></path>
+                        <path
+                            d="M337.204 200.305C347.856 192.316 385.141 156.363 389.135 151.037C397.791 148.374 413.104 190.318 337.204 251.571"
+                            fill="#7BDFF2" class="svg-elem-33"></path>
+                        <path d="M364.068 220.026C354.765 230.215 344.669 239.65 333.875 248.242" stroke="#1B3C87"
+                            stroke-width="4.78" stroke-linecap="round" stroke-linejoin="round" class="svg-elem-34">
+                        </path>
+                        <path
+                            d="M333.875 196.976C344.527 188.987 381.812 153.034 385.806 147.708C391.932 145.824 401.399 166.303 379.461 200.166"
+                            stroke="#1B3C87" stroke-width="4.78" stroke-linecap="round" stroke-linejoin="round"
+                            class="svg-elem-35"></path>
+                    </svg>
+
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- section1 -->
+    <section>
+        <div class="container-fluid why-myratin">
+            <div class="container">
+                <div class="row  section-2 d-md-flex flex-row-reverse">
+                    <div class="col-md-6 section1-text mt-md-5">
+                        <h2 class="mt-md-5 mt-3 text-center">A good REPUTATION is in demand</h2>
+                        <p class="mt-md-3">We Are Determined More Than Ever To Help You Evaluate <br> The
+                            Quality Of Your Interactions With The People You Meet Daily <br> While Improving Your Social
+                            Skills And Behaviors.
+                        </p>
+                    </div>
+
+                    <div class="col-md-6 mt-md-5 mb-md-5">
+                        <img src="./assets/image/drawkit-grape-pack-illustration-3.svg" alt="..."
+                            class=" img-fluid  slide-1 mb-md-5">
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- section2 -->
+
+    <section class="">
+        <div class="container-fluid mt-5">
+            <div class="row">
+                <div class="col-12 mt-5 mb-5">
+                    <h2 class="mx-3 font-weight-bold">How Does This Work?</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- PHONE1 -->
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row mt-5 wrapper">
+                    <div class="col-md-6 mt-5 parent">
+                        <img src="./assets/image/appscreen-1.svg" alt="..." class=" d-block mx-auto child phone">
+                    </div>
+                    <div class="col-md-6 mt-md-5">
+                        <div class="cards border-0">
+                            <img src="./assets/image/Group 18.svg" alt="..." class="img-fluid number-img mt-5">
+                            <div>
+                                <h3 class="mt-1 font-weight-bold">Register On MyRatin</h3>
+                                <p>Download the App From Playstore <br>
+                                    And Register on the Platform.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phone2 -->
+                <div class="row mt-5 wrapper">
+                    <div class="col-md-6 mt-5">
+                        <div class="card border-0 text-right d-block mx-auto">
+                            <img src="/assets/image/Group 17.svg" alt="..." class="img-fluid number2-img">
+                            <h3 class="mt-1 font-weight-bold">Register On MyRatin</h3>
+                            <p>Download the App From Playstore <br>
+                                And Register on the Platform.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mt-5 parent">
+                        <img src="./assets/image/appscreen-1.svg" alt="..."
+                            class="img-fluid d-block mx-auto child phone">
+                    </div>
+                </div>
+
+                <!-- Phone3 -->
+                <div class="row mt-5 wrapper">
+                    <div class="col-md-6 mt-5 parent">
+                        <img src="./assets/image/main (1).svg" alt="..." class="img-fluid d-block mx-auto child phone">
+                    </div>
+                    <div class="col-md-6 mt-5">
+                        <div class="card border-0 text-left parent">
+                            <img src="./assets/image/Group 16.svg" alt="..." class="img-fluid number-img mt-5">
+                            <h3 class="mt-1 font-weight-bold">Register On MyRatin</h3>
+                            <p>Download the App From Playstore <br>
+                                And Register on the Platform.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phone4 -->
+                <div class="row mt-5 wrapper">
+                    <div class="col-md-6 mt-5">
+                        <div class="card border-0 text-right">
+                            <img src="./assets/image/Group 15.svg" alt="..." class="img-fluid text-left">
+                            <h3 class="mt-1 font-weight-bold">Register On MyRatin</h3>
+                            <p>Download the App From Playstore <br>
+                                And Register on the Platform.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mt-5 parent">
+                        <img src="./assets/image/main (1).svg" alt="..."
+                            class="img-fluid d-block mx-auto child d-none d-md-block phone">
+                    </div>
+                </div>
+                <!-- Phone5 -->
+                <div class="row mt-5 wrapper">
+                    <div class="col-md-6 mt-5 parent">
+                        <img src="./assets/image/main (1).svg" alt="..." class="img-fluid d-block mx-auto child phone">
+                    </div>
+                    <div class="col-md-6 mt-5">
+                        <div class="card border-0 text-left">
+                            <img src="./assets/image/Group 19.svg" alt="..." class="img-fluid number-img mt-5">
+                            <h3 class="mt-1 font-weight-bold">Register On MyRatin</h3>
+                            <p>Download the App From Playstore <br>
+                                And Register on the Platform.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phone6 -->
+                <div class="row mt-5 wrapper">
+                    <div class="col-md-6 mt-5">
+                        <div class="card border-0 text-right">
+                            <img src="./assets/image/Group 20.svg" alt="..." class="img-fluid number2-img">
+                            <h3 class="mt-1 font-weight-bold">Register On MyRatin</h3>
+                            <p>Download the App From Playstore <br>
+                                And Register on the Platform.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mt-5 parent">
+                        <img src="./assets/image/main (1).svg" alt="..." class="img-fluid d-block mx-auto child phone">
+                    </div>
+
+                </div>
+
+
+    </section>
+
+    <!-- get access -->
+    <section class="container-fluid get-access-bg" id="early-access">
+        <div class="container-fluid pb-5">
+            <div class="row">
+                <div class="col-md-12 mt-5">
+                    <h3 class="font-weight-bold mx-3 text-nowrap">Get Early Access</h3>
+                </div>
+            </div>
+            <div class="row text-center d-block mx-auto">
+                <div class="com-md-12 text-center">
+                    <h5 class="text-center my-md-4">Ready to get an early preview of what we're
+                        building?</h5>
+                </div>
+            </div>
+            <div class="row">
+                <form action="process.php" class=" email-form d-block mx-auto">
+                    <div class="notify-form d-md-flex flex-row">
+                        <label for="email"></label>
+                        <input type="email" name="email" id="email" placeholder="Enter Email Address"
+                            class="email-input  px-5 py-2">
+                        <button type="submit" class="text-white text-nowrap px-3 py-2 stay-informed-btn">Stay
+                            Informed</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="container-fluid footer-bg">
+            <div class="col-md-6 text-white">
+                <small>&copy; MyRatin App, Copyright2020</small>
+            </div>
+            <div class="col-md-6">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="./assets/js/bootstrap/jquery.js"></script>
+    <script src="./assets/js/bootstrap/popper.js"></script>
+    <script src="./assets/js/bootstrap/bootstrap.js"></script>
+    <script src="./assets/js/custom/app.js"></script>
+</body>
+
+</html>
