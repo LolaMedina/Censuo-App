@@ -15,7 +15,7 @@ else{
 $sql = "INSERT INTO users(email)
 values ('$email')";
 if ($conn->query($sql)){
-echo "Email successfully subscribed";
+ echo "Email successfully subscribed";
 }
 else{
 echo "Error: ". $sql ."
