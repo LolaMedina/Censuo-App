@@ -1,6 +1,6 @@
 
 
-var controller = new ScrollMagic.Controller();
+ var controller = new ScrollMagic.Controller();
 
 $(".wrapper").each(function() {
   var tl = new TimelineMax();
@@ -21,7 +21,3 @@ $(".wrapper").each(function() {
     // })
     .addTo(controller);
 });
-
-
-
-
